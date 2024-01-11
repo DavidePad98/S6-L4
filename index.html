@@ -12,10 +12,13 @@
     />
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body class="">
+  <body>
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/assets/logo.svg" alt="" />
+          </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -29,9 +32,6 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li>
-                <img src="./assets/assets/logo.svg" alt="" />
-              </li>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -124,7 +124,9 @@
         </div>
       </nav>
       <section class="container-fluid mb-3">
-        <div class="row row-cols-sm-12 cols-md-6 bg-danger">
+        <div
+          class="row row-cols-1 row-cols-md-2 bg-danger text-white ps-5 pt-5"
+        >
           <div class="col">
             <h2>welcome</h2>
             <p>
@@ -133,47 +135,59 @@
               vitae ipsam distinctio expedita. Nulla labore ex fugit aliquam
               natus reiciendis dolorem harum.
             </p>
+            <button
+              class="border-0 rounded p-2 text-white bg-success fw-bold fs-6 text"
+            >
+              Browser courses
+            </button>
+            <button
+              class="border-0 rounded p-2 text-black bg-white fw-bold fs-6 text"
+            >
+              Are you Istructor?
+            </button>
           </div>
           <div class="col">
-            <img src="./assets/assets/hero-img.png" alt="" />
+            <img src="./assets/assets/hero-img.png" alt="" class="w-100" />
           </div>
         </div>
       </section>
-      <div class="row row-cols-12 flex-column">
-        <div class="col d-flex ms-4 my-1 p-0">
-          <div
-            class="p-3 bg-danger rounded-circle text-center d-flex"
-            style="width: 50px; height: 50px"
-          >
-            <img src="./assets/clock.svg" alt="" />
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 d-flex my-1 p-0">
+            <div
+              class="p-3 bg-danger rounded-circle text-center d-flex"
+              style="width: 50px; height: 50px"
+            >
+              <img src="./assets/clock.svg" alt="" />
+            </div>
+            <div class="px-3">
+              <h4 class="py-0 m-0">30,000 online</h4>
+              <p>enjoy a variety</p>
+            </div>
           </div>
-          <div class="px-3">
-            <h4 class="py-0 m-0">30,000 online</h4>
-            <p>enjoy a variety</p>
+          <div class="col-12 col-md-4 d-flex my-1 p-0">
+            <div
+              class="p-3 bg-danger rounded-circle text-center d-flex"
+              style="width: 50px; height: 50px"
+            >
+              <img src="./assets/clock.svg" alt="" />
+            </div>
+            <div class="px-3">
+              <h4 class="py-0 m-0">30,000 online</h4>
+              <p>enjoy a variety</p>
+            </div>
           </div>
-        </div>
-        <div class="col d-flex ms-4 my-1 p-0">
-          <div
-            class="p-3 bg-danger rounded-circle text-center d-flex"
-            style="width: 50px; height: 50px"
-          >
-            <img src="./assets/clock.svg" alt="" />
-          </div>
-          <div class="px-3">
-            <h4 class="py-0 m-0">30,000 online</h4>
-            <p>enjoy a variety</p>
-          </div>
-        </div>
-        <div class="col d-flex ms-4 my-1 p-0">
-          <div
-            class="p-3 bg-danger rounded-circle text-center d-flex"
-            style="width: 50px; height: 50px"
-          >
-            <img src="./assets/clock.svg" alt="" />
-          </div>
-          <div class="px-3">
-            <h4 class="py-0 m-0">30,000 online</h4>
-            <p>enjoy a variety</p>
+          <div class="col-12 col-md-4 d-flex my-1 p-0">
+            <div
+              class="p-3 bg-danger rounded-circle text-center d-flex"
+              style="width: 50px; height: 50px"
+            >
+              <img src="./assets/clock.svg" alt="" />
+            </div>
+            <div class="px-3">
+              <h4 class="py-0 m-0">30,000 online</h4>
+              <p>enjoy a variety</p>
+            </div>
           </div>
         </div>
       </div>
